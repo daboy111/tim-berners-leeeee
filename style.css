@@ -1,0 +1,63 @@
+body{
+   margin: 0;
+   padding-top: 795px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#profile{
+    width: 200px;
+    border-radius: 50%;
+}
+
+#Welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right,white, red , yellow, green, blue, cyan, purple, pink, aqua, gold, orange,brown,black);
+display:table;
+width: 100%;
+height: 100%;
+}
+#inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.line{
+    height: 7px;
+    width: 75px;
+    background-color: black;
+    margin: 8px auto;
+} 
+.menu{
+    list-style: none;
+    position: fixed;
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+margin: 0px;
+top: 0;
+    z-index: 9;
+    
+}
+.links{
+    display: inline;
+    
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+a{
+    text-decoration: none;
+}
+#Articles a {
+
+text-decoration: underline !important;
+color: chartreuse !important;
+}
+#Contact{background: lightgray;
+
+}
+.contact_1 h3{
+display: inline;
+}
